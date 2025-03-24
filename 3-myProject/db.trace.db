@@ -1,0 +1,334 @@
+2024-10-27 16:54:07.407201+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 16:54:07.421710+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, item_id_id bigint, stert_date timestamp(6), users_id_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, item_id_id bigint, stert_date timestamp(6), users_id_id bigint, primary key (id)) [42001-224]
+2024-10-27 16:54:07.423770+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FK3cisygnja28c5iu227lsdiawd foreign key (item_id_id) references item"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FK3cisygnja28c5iu227lsdiawd foreign key (item_id_id) references item [42001-224]
+2024-10-27 16:54:07.424765+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users [42001-224]
+2024-10-27 16:55:43.380782+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 16:55:46.598629+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 16:55:46.609689+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, item_id_id bigint unique, stert_date timestamp(6), users_id_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, item_id_id bigint unique, stert_date timestamp(6), users_id_id bigint, primary key (id)) [42001-224]
+2024-10-27 16:55:46.611688+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FK3cisygnja28c5iu227lsdiawd foreign key (item_id_id) references item"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FK3cisygnja28c5iu227lsdiawd foreign key (item_id_id) references item [42001-224]
+2024-10-27 16:55:46.611688+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users [42001-224]
+2024-10-27 16:57:58.722987+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 16:58:01.827194+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 16:58:01.837411+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id_id bigint, primary key (id)) [42001-224]
+2024-10-27 16:58:01.839408+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users [42001-224]
+2024-10-27 16:58:01.845408+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-10-27 16:59:31.684940+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 16:59:34.774797+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 16:59:34.786793+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, item_id bigint unique, stert_date timestamp(6), users_id_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, item_id bigint unique, stert_date timestamp(6), users_id_id bigint, primary key (id)) [42001-224]
+2024-10-27 16:59:34.788793+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKh791atibn21g9q92krtop0qtv foreign key (item_id) references item"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKh791atibn21g9q92krtop0qtv foreign key (item_id) references item [42001-224]
+2024-10-27 16:59:34.788793+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users [42001-224]
+2024-10-27 17:00:59.063595+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:01:01.795114+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:01:01.808116+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, item_id bigint unique, stert_date timestamp(6), users_id_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, item_id bigint unique, stert_date timestamp(6), users_id_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:01:01.810113+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKh791atibn21g9q92krtop0qtv foreign key (item_id) references item"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKh791atibn21g9q92krtop0qtv foreign key (item_id) references item [42001-224]
+2024-10-27 17:01:01.811113+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKcdk18vuf7rp67mdw3uytt46n7 foreign key (users_id_id) references users [42001-224]
+2024-10-27 17:01:49.881556+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:01:52.992236+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:01:53.004289+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, item_id bigint unique, stert_date timestamp(6), users_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, item_id bigint unique, stert_date timestamp(6), users_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:01:53.006289+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKh791atibn21g9q92krtop0qtv foreign key (item_id) references item"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKh791atibn21g9q92krtop0qtv foreign key (item_id) references item [42001-224]
+2024-10-27 17:01:53.008158+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users [42001-224]
+2024-10-27 17:08:08.918204+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:08:33.560409+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:08:33.572700+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:08:33.574701+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists item_orders add constraint FK9lhh2iachdsnrsjy7cprx74og foreign key (orders_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists item_orders add constraint FK9lhh2iachdsnrsjy7cprx74og foreign key (orders_id) references order [42001-224]
+2024-10-27 17:08:33.580211+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users [42001-224]
+2024-10-27 17:08:33.581288+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_items add constraint FKdy6l1ieu09exdjope704jwo1e foreign key (order_id) references order [42001-224]
+2024-10-27 17:10:48.607806+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:11:52.320935+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:11:52.335201+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:11:52.336655+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users [42001-224]
+2024-10-27 17:13:21.322335+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:13:24.443281+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:13:24.453600+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:13:24.457159+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users [42001-224]
+2024-10-27 17:14:13.746611+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:14:16.869198+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:14:16.881426+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:14:16.883426+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users [42001-224]
+2024-10-27 17:17:12.993044+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:17:16.055592+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:17:16.066784+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:17:16.068784+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users [42001-224]
+2024-10-27 17:17:59.616070+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:18:02.708707+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:18:02.720972+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:18:02.722972+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKmfux98c16jb6t93650it5jyei foreign key (users_id) references users [42001-224]
+2024-10-27 17:18:31.601327+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:18:34.735961+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:18:34.748181+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users1_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users1_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:18:34.750186+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKcghxag26o54gucmkkkxfsqncr foreign key (users1_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKcghxag26o54gucmkkkxfsqncr foreign key (users1_id) references users [42001-224]
+2024-10-27 17:18:55.574193+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:18:58.785599+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:18:58.795334+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users1_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), users1_id bigint, primary key (id)) [42001-224]
+2024-10-27 17:18:58.797335+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists [*]order add constraint FKcghxag26o54gucmkkkxfsqncr foreign key (users1_id) references users"; expected "identifier"; SQL statement:
+alter table if exists order add constraint FKcghxag26o54gucmkkkxfsqncr foreign key (users1_id) references users [42001-224]
+2024-10-27 17:22:37.651375+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:23:34.525471+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:23:34.536470+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), primary key (id)) [42001-224]
+2024-10-27 17:24:30.686270+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:24:33.736703+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:24:33.748494+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), primary key (id)) [42001-224]
+2024-10-27 17:25:00.038478+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:25:03.057856+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:25:03.069303+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint not null, stert_date timestamp(6), primary key (id)) [42001-224]
+2024-10-27 17:25:54.750096+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:25:57.808868+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:25:57.822257+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date timestamp(6), id bigint generated by default as identity, stert_date timestamp(6), primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date timestamp(6), id bigint generated by default as identity, stert_date timestamp(6), primary key (id)) [42001-224]
+2024-10-27 17:27:59.456532+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:28:05.420467+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:28:05.431217+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date integer not null, stert_date integer not null, id bigint generated by default as identity, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date integer not null, stert_date integer not null, id bigint generated by default as identity, primary key (id)) [42001-224]
+2024-10-27 17:29:02.357808+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:29:05.404888+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:29:05.416564+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date integer not null, stert_date integer not null, id bigint not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date integer not null, stert_date integer not null, id bigint not null, primary key (id)) [42001-224]
+2024-10-27 17:30:06.221128+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:30:09.194485+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:30:09.204644+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount integer not null, end_date integer not null, stert_date integer not null, id bigint not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount integer not null, end_date integer not null, stert_date integer not null, id bigint not null, primary key (id)) [42001-224]
+2024-10-27 17:30:36.803580+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:30:39.801496+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-10-27 17:30:39.814285+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (amount1 integer not null, end_date integer not null, stert_date integer not null, id bigint not null, primary key (id))"; expected "identifier"; SQL statement:
+create table order (amount1 integer not null, end_date integer not null, stert_date integer not null, id bigint not null, primary key (id)) [42001-224]
+2024-10-27 17:31:46.777922+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order cascade "; expected "identifier"; SQL statement:
+drop table if exists order cascade  [42001-224]
+2024-12-17 04:34:13.051616+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""STATUS"" BOOLEAN NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("NAME","PRICE","STATUS","ID","LINK","LOCATION","DESCRIPTION","SUG")VALUES(?,?,?,?,?,?,?,?) [22018-224]
+2024-12-17 04:34:13.092953+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""STATUS"" BOOLEAN NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("NAME","PRICE","STATUS","ID","LINK","LOCATION","DESCRIPTION","SUG")VALUES(?,?,?,?,?,?,?,?) [22018-224]
+2024-12-17 04:41:38.018033+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'""\\05e9\\05d9\\05d9\\05d8 \\05de\\05d4\\05d9\\05e8 \\05dc\\05de\\05e2\\05e8\\05d4 \\05d4\\05... (516)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("PRICE","SUG","ID","DESCRIPTION","LINK","LOCATION","NAME")VALUES(?,?,?,?,?,?,?) [22001-224]
+2024-12-17 04:41:38.045304+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'""\\05e9\\05d9\\05d9\\05d8 \\05de\\05d4\\05d9\\05e8 \\05dc\\05de\\05e2\\05e8\\05d4 \\05d4\\05... (516)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("PRICE","SUG","ID","DESCRIPTION","LINK","LOCATION","NAME")VALUES(?,?,?,?,?,?,?) [22001-224]
+2024-12-17 04:42:41.678997+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'""\\05e9\\05d9\\05d9\\05d8 \\05de\\05d4\\05d9\\05e8 \\05dc\\05de\\05e2\\05e8\\05d4 \\05d4\\05... (516)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("PRICE","SUG","ID","DESCRIPTION","LINK","LOCATION","NAME")VALUES(?,?,?,?,?,?,?) [22001-224]
+2024-12-17 04:42:41.679087+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'""\\05e9\\05d9\\05d9\\05d8 \\05de\\05d4\\05d9\\05e8 \\05dc\\05de\\05e2\\05e8\\05d4 \\05d4\\05... (516)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("PRICE","SUG","ID","DESCRIPTION","LINK","LOCATION","NAME")VALUES(?,?,?,?,?,?,?) [22001-224]
+2024-12-17 04:52:37.572638+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'\\05d1\\05db\\05dc \\05d4\\05e2\\05d5\\05dc\\05dd \\05d9\\05e9\\05e0\\05dd \\05d1\\05ea\\05d... (357)"; SQL statement:
+UPDATE "PUBLIC"."RECREATION" SET "ID"=? ,"DESCRIPTION"=? ,"LINK"=? ,"LOCATION"=? ,"NAME"=? ,"PRICE"=? ,"SUG"=?  WHERE "ID"=? [22001-224]
+2024-12-17 04:52:37.580979+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'\\05d1\\05db\\05dc \\05d4\\05e2\\05d5\\05dc\\05dd \\05d9\\05e9\\05e0\\05dd \\05d1\\05ea\\05d... (357)"; SQL statement:
+UPDATE "PUBLIC"."RECREATION" SET "ID"=? ,"DESCRIPTION"=? ,"LINK"=? ,"LOCATION"=? ,"NAME"=? ,"PRICE"=? ,"SUG"=?  WHERE "ID"=? [22001-224]
+2024-12-17 04:59:27.419303+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."RECREATION" SET "ID"=? ,"DESCRIPTION"=? ,"LINK"=? ,"LOCATION"=? ,"NAME"=? ,"PRICE"=? ,"SUG"=?  WHERE "ID"=? [22018-224]
+2024-12-17 04:59:27.427383+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."RECREATION" SET "ID"=? ,"DESCRIPTION"=? ,"LINK"=? ,"LOCATION"=? ,"NAME"=? ,"PRICE"=? ,"SUG"=?  WHERE "ID"=? [22018-224]
+2024-12-17 05:27:40.915111+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("ID","DESCRIPTION","LINK","LOCATION","NAME","PRICE","SUG")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-12-17 05:27:40.915111+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("ID","DESCRIPTION","LINK","LOCATION","NAME","PRICE","SUG")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-12-17 05:50:03.823523+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("ID","DESCRIPTION","LINK","LOCATION","NAME","PRICE","SUG")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-12-17 05:50:03.831541+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""PRICE"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("ID","DESCRIPTION","LINK","LOCATION","NAME","PRICE","SUG")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-12-17 06:09:30.470362+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("ID","DESCRIPTION","LINK","LOCATION","NAME","PRICE","SUG")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-12-17 06:09:30.490819+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (RECREATION: ""ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."RECREATION"("ID","DESCRIPTION","LINK","LOCATION","NAME","PRICE","SUG")VALUES(?,?,?,?,?,?,?) [22018-224]
+2024-12-17 09:24:15.350408+02:00 jdbc[35]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more

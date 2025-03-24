@@ -1,0 +1,64 @@
+/* סגנון כולל */
+.information-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+/* כותרות */
+.main-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* כרטיסי מידע */
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    width: 250px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* כרטיס שבת */
+.card-shabbat {
+    background-color: #fff4e6;
+    color: #e69500;
+}
+
+.card-shabbat .highlight {
+    color: #e69500;
+    font-size: 0.9rem;
+}
+
+/* כרטיס מטבע */
+.card-currency {
+    background-color: #fde8e8;
+    color: #d9534f;
+}
+
+/* כרטיס שעה */
+.card-time {
+    background-color: #e8e8f0;
+    color: #495057;
+}
+
+/* טקסט */
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
